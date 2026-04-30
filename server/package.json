@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Hours of speech. Seconds to read.",
+  "homepage": "https://github.com/ismaelportog/Neci#readme",
+  "bugs": {
+    "url": "https://github.com/ismaelportog/Neci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaelportog/Neci.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "defuddle": "^0.18.1",
+    "express": "^5.2.1",
+    "jsdom": "^29.1.0",
+    "morgan": "^1.10.1"
+  }
+}
